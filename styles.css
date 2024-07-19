@@ -1,0 +1,121 @@
+body {
+    min-width: 700px;
+    background-color: bisque;
+}
+
+img{
+    width: 100%;
+    border-radius: 1rem;
+    margin: 5%;
+    margin-bottom: 0;
+    transition: 1s;
+}
+
+img:hover{
+    transform: scale(1.03);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 1.8rem;
+    position: relative;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+.omlett-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.preparation-container{
+    height: 13rem;
+    border-radius: 1rem;
+    background-color: pink;
+}
+
+.preparation-content{
+    width: 93.5%;
+    position: relative;
+    top: 1.8rem;
+    left: 2rem;
+    height: 70%;
+}
+
+.prep-time{
+    font-size: 1.2rem;
+    height: 70%;
+}
+
+li{
+    font-size: 1.2rem;
+    position: relative;
+    right: 2%;
+    padding: 5px;
+}
+
+.nutrition-desctiption{
+    margin-bottom: 5%;
+    font-size: 1.2rem;
+}
+
+.nutrition-content{
+    display: flex;
+    margin-bottom: 2.8%;
+}
+
+.nutrition-p{
+    margin: 0 1%;
+    width: 100%;
+}
+
+.main-content{
+    width: 90%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.color-pink{
+    color: rgb(183, 52, 98)
+}
+
+.color-red{
+    color: rgb(122, 5, 5);
+}
+
+.section-seperator{
+    margin: 5% -1%;
+    width: 102%;
+    height: 2px;
+    background-color: black;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution p{
+    margin: 1%;
+    font-size: .8rem;
+}
